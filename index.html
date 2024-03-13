@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div class="main">
+            <h1>Tour Booking Form</h1>
+        </div>
+        <div class="user_name">
+            <label for="">Name</label>
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+        </div>
+        <div class="email">
+            <label for="">Email</label>
+            <input type="text" placeholder="name@mail.ru">
+        </div>
+        <div class="phone">
+            <label for="">Phone</label>
+            <input type="text" placeholder="### ### ####">
+        </div>
+        <div class="visit">
+            <label for="">When are you planning to vizit?</label>
+            <input type="date" placeholder="dd/mm/yyyy">
+        </div>
+        <div class="number_guests">
+            <label for="">How many people are in your group?</label>
+            <input type="number">
+        </div>
+        <div class="visit_choice">
+            <label for="">Which tour are you most interested in?</label>
+            <select name="" id="">
+                <option value="" selected disabled>*Please select*</option>
+                <option value="">Tour 1</option>
+                <option value="">Tour 2</option>
+                <option value="">Tour 3</option>
+            </select>
+        </div>
+        <div class="contact_choice">
+            <label>What is the best way to contact you?</label>       
+            <div>
+                <input type="checkbox" name="Phone" value="Phone">
+                <label class="check_box_label">Phone</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Email" value="Email">
+                <label class="check_box_label">Email</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Either" value="Either">
+                <label class="check_box_label">Either</label>
+            </div>
+        </div>
+        <div class="time_choice">
+            <label>What is the best way to contact you?</label>
+            <div>
+                <input type="radio" name="time_choice" value="">
+                <label class="check_box_label">8 - 11 AM</label>
+            </div>
+            <div>
+                <input type="radio" name="time_choice" value="">
+                <label class="check_box_label">12 - 4 PM</label>
+            </div>
+            <div>
+                <input type="radio" name="time_choice" value="">
+                <label class="check_box_label">6 - 10 PM</label>
+            </div>
+        </div>
+        <div class="inform">
+            <label>Anything else we should know?</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="div_button">
+            <button>Send</button>
+        </div>
+    </form>
+</body>
+</html>
